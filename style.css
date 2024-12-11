@@ -541,7 +541,7 @@ textarea {
     object-fit: cover;
     object-position: center;
     display: block; }
- .header__logo-sub {
+  .header__logo-sub {
     font-size:20px;
     color: rgb(8, 8, 158);
     text-transform: uppercase;
@@ -772,7 +772,7 @@ textarea {
       color: #0e2431;
     }
     header .logo i {
-      font-size: 18px;
+      font-size: 20px;
     }
     header .logo:hover {
       color: #fc8c05;
