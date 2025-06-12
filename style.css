@@ -811,7 +811,7 @@ textarea {
     }
     @media (max-width: 768px) {
       #menu {
-        display: block;
+        display:none;
       }
       header .navbar {
         position: fixed;
@@ -1136,7 +1136,7 @@ textarea {
     
     /* skills section starts */
     .skills {
-      min-height: 90vh;
+      min-height: 110vh;
       /* background: linear-gradient(rgb(26, 145, 201),skyblue); */
     }
     .skills h2 {
@@ -1152,19 +1152,19 @@ textarea {
       padding: 2rem;
       width: 78%;
       margin: auto;
-      margin-top: 2rem;
+  
     }
     .skills .container img{
       height: 15vh;
       width: 16vh;
     }
     .skills .container .row {
-      height:30vh ;
-      display: grid;
-      grid-template-columns: repeat(6, 1fr);
+      height:58vh ;
+      display: flex;
+      /* grid-template-columns: repeat(6, 1fr); */
       flex-wrap: wrap;
       gap: 1.8rem;
-      display: flex;
+      align-items: center;
       justify-content: space-evenly;
     }
     .skills .container .bar {
@@ -1201,7 +1201,7 @@ textarea {
         margin: 0;
       }
       .skills .container .row {
-        height: 40vh;
+        height: 115vh;
         grid-template-columns: repeat(2, 1fr);
         margin: 1rem;
         padding: 2rem 0.2rem 2rem 0.2rem;
